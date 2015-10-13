@@ -1,0 +1,16 @@
+<div class="row">
+  <div class="col-md-8 col-md-offset-2">
+    <div class="page-header">
+      <h1>Welcome pdf generate</h1>
+    </div>
+    <h4 class="danger"><%= link_to "Download PDF", posts_path(format: :pdf) %></h4>
+    <table class="table table-striped">
+      <tr>
+        <th>ID</th>
+        <th>title</th>
+        <th>body</th>
+      </tr>
+      <%= render @posts %>
+    </table>
+</div>
+</div>
