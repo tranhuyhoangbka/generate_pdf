@@ -4,6 +4,9 @@ gem 'prawn'
 gem "bootstrap-sass"
 gem "faker"
 gem 'prawn-table', '~> 0.2.0'
+gem 'pdfkit'
+gem 'wicked_pdf'
+gem 'wkhtmltopdf-binary'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'
 # Use sqlite3 as the database for Active Record
